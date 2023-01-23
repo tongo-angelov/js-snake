@@ -1,0 +1,43 @@
+body {
+    background-color: #0C0C0D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+p {
+    margin: 5px
+}
+
+.canvas {
+    position: relative;
+    background-color: #434343;
+    background-image:
+        linear-gradient(0deg,
+            #343434 1%,
+            transparent 2%,
+            transparent 98%,
+            #343434 99%),
+        linear-gradient(90deg,
+            #343434 1%,
+            transparent 2%,
+            transparent 98%,
+            #343434 99%);
+}
+
+.part {
+    position: absolute;
+    background-color: #747474;
+    border-radius: 2px;
+}
+
+.danger {
+    background-color: #A4A4A4;
+}
+
+.food {
+    position: absolute;
+}
